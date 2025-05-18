@@ -24,29 +24,29 @@ A Streamlit‑based web application to monitor and visualize SSL/TLS certificate
 ## Installation
 
 1. Clone the repository
-```
-git clone https://github.com/your‑org/ssl‑expiry‑checker.git
-cd ssl‑expiry‑checker
-```
+  ```
+  git clone https://github.com/your‑org/ssl‑expiry‑checker.git
+  cd ssl‑expiry‑checker
+  ```
 
 2. Create and activate a virtual environment
-```
-python3 -m venv .venv
-source .venv/bin/activate    # Linux/macOS
-.\.venv\Scripts\activate   # Windows
-```
+  ```
+  python3 -m venv .venv
+  source .venv/bin/activate    # Linux/macOS
+  .\.venv\Scripts\activate   # Windows
+  ```
 
 3. Install dependencies
-```
-pip install -r requirements.txt
-```
+  ```
+  pip install -r requirements.txt
+  ```
 
 ## Configuration & Usage
 
 1. Run the Streamlit app
-```
-streamlit run ssl_expiry_streamlit.py
-```
+  ```
+  streamlit run ssl_expiry_streamlit.py
+  ```
 
 2. Configure settings in the sidebar:
 
