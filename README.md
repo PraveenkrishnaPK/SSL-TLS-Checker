@@ -70,13 +70,11 @@ streamlit run ssl_expiry_streamlit.py
 
 ## Dependencies
 
-Streamlit — Fast web apps in Python
+- Streamlit — Fast web apps in Python
 
-Pandas — Data manipulation
+- Pandas — Data manipulation
 
-Altair — Declarative charts
-
-See requirements.txt for exact versions.
+- Altair — Declarative charts
 
 ## Development
 
