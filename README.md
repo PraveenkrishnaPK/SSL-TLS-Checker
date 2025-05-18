@@ -107,4 +107,4 @@ Contributions are welcome! Please:
 5. Open a pull request
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the MIT License. See [LICENSE](https://github.com/PraveenkrishnaPK/SSL-TLS-Checker/blob/main/LICENSE) for details.
