@@ -50,61 +50,61 @@ A Streamlit‑based web application to monitor and visualize SSL/TLS certificate
 
 2. Configure settings in the sidebar:
 
-- Hosts: Paste hostnames (one per line) or upload a .txt file
-
-- Port: Default is 443
-
-- Warn if expiring in ≤ days: Set your threshold (e.g. 15)
-
-- Concurrency: Number of threads for parallel checks
+  - Hosts: Paste hostnames (one per line) or upload a .txt file
+  
+  - Port: Default is 443
+  
+  - Warn if expiring in ≤ days: Set your threshold (e.g. 15)
+  
+  - Concurrency: Number of threads for parallel checks
 
 3. Click the Check Certificates button.
 
 4. View results:
 
-- Summary metrics at the top
-
-- Expiry buckets bar chart
-
-- Expandable table with detailed data and download options
+  - Summary metrics at the top
+  
+  - Expiry buckets bar chart
+  
+  - Expandable table with detailed data and download options
 
 ## Dependencies
 
-- Streamlit — Fast web apps in Python
-
-- Pandas — Data manipulation
-
-- Altair — Declarative charts
+  - Streamlit — Fast web apps in Python
+  
+  - Pandas — Data manipulation
+  
+  - Altair — Declarative charts
 
 ## Development
 
-- Code style: PEP8
-
-- Formatting: Use black . and isort .
-
-- Testing: Extend with pytest for unit tests on certificate parsing and data processing
+  - Code style: PEP8
+  
+  - Formatting: Use black . and isort .
+  
+  - Testing: Extend with pytest for unit tests on certificate parsing and data processing
 
 ## Deployment
 
-- Run locally via streamlit run
-
-- Docker: create a Dockerfile and expose port 8501
-
-- Streamlit Cloud: connect your GitHub repo for one‑click deployment
+  - Run locally via streamlit run
+  
+  - Docker: create a Dockerfile and expose port 8501
+  
+  - Streamlit Cloud: connect your GitHub repo for one‑click deployment
 
 ## Contributing
 
-Contributions are welcome! Please:
-
-1. Fork the repo
-
-2. Create a feature branch: git checkout -b feat/YourFeature
-
-3. Commit your changes: `git commit -m "Add feature"
-
-4. Push branch: git push origin feat/YourFeature
-
-5. Open a pull request
+  Contributions are welcome! Please:
+  
+  1. Fork the repo
+  
+  2. Create a feature branch: git checkout -b feat/YourFeature
+  
+  3. Commit your changes: `git commit -m "Add feature"
+  
+  4. Push branch: git push origin feat/YourFeature
+  
+  5. Open a pull request
 
 ## License
 This project is licensed under the MIT License. See [LICENSE](https://github.com/PraveenkrishnaPK/SSL-TLS-Checker/blob/main/LICENSE) for details.
